@@ -1,11 +1,14 @@
 # Code Book
+-----------
 
 This code book summarizes the resulting data fields in `tidy.txt`.
 
-Study Design
-------------
+## Study Design
+---------------
 
-The source data was collected from the [UCI Machine Learning Repository](http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones) to complete an assignment for a Coursera course named Getting and Cleaning Data instructed by Jeff Leek. The assignment involved working with the [data set](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip) and producing tidy data representation of the source data. Below is a list of the operations done to achieve the outputs.
+Data source : [UCI Machine Learning Repository](http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones)  Datas set: [data set](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip) 
+
+The specific steps are:
 
 1. Downloaded the data set and unzipped the data set into my chosen working directory
 2. Loaded test and training data sets into data frames
@@ -20,11 +23,13 @@ The source data was collected from the [UCI Machine Learning Repository](http://
 11. Produced "tidy_data.txt" as the second expected output
 
 ## Identifiers
+---------------
 
 * `subject` - The ID of the test subject
 * `activity` - The type of activity performed when the corresponding measurements were taken
 
 ## Measurements
+---------------
 
 * `tBodyAccMeanX`
 * `tBodyAccMeanY`
@@ -107,6 +112,7 @@ The source data was collected from the [UCI Machine Learning Repository](http://
 * `fBodyBodyGyroJerkMagMeanFreq`
 
 ## Activity Labels
+------------------
 
 * `WALKING` (value `1`): subject was walking during the test
 * `WALKING_UPSTAIRS` (value `2`): subject was walking up a staircase during the test
